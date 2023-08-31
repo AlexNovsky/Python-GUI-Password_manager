@@ -5,7 +5,7 @@ import os
 
 class PasswordGen:
     """
-    Class,
+    Class, containing password generation engine and its components.
     """
     def __init__(self):
         self.config_folder = os.path.join(os.path.dirname(__file__), '..', 'resources')
